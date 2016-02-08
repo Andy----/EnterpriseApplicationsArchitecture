@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [ "$USER" != "allowed_username" ]; then
+if [ "$USER" != "eaauser" ]; then
 	echo 'Access Denied'
 	exit 1
 fi
